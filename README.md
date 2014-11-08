@@ -26,8 +26,8 @@ Slider
         direction: 'y'
     });
 ```
-* `target`        **indispensable**
-* `parlent`        **indispensable**
+* `target`        **indispensable**  [`id` or `object`]
+* `parlent`        **indispensable**  [`id` or `object`]
 * `speedrate`        **option** Default`150`
 * `durationrateY` or `durationrateX` **option** Default`5`
 * `direction`        **option** [`y` or `x`] Default`y`
