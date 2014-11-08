@@ -10,7 +10,7 @@ Slider
    <head>
       …
       <script type="text/javascript" src="kurubusi.slider_pkg.js"></script>
-      <link href="kurubusi.slider" rel="stylesheet" type="text/css">
+      <link href="kurubusi.slider.css" rel="stylesheet" type="text/css">
       …
    </head>
 ```
