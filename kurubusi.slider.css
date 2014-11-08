@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+
+
+*	{
+	
+}
+
+body	{
+	font-family: ;'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif !important;
+	//font-size: 18px;
+	word-wrap: break-word;
+	margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.k_mobile_obj	{
+	box-shadow: 0 -5px 5px 5px rgba(0, 0, 0, 1) inset;
+	padding: 0;
+	margin: 0;
+	background-color: #111;
+}
+
+
+.k_mobile_obj div	{
+	padding: 0;
+	margin: 0;
+}
+.k_mobile_obj ul	{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+//ナビゲーションスタイル
+.k_mobile_obj .nav_ul1	{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	list-style: none;
+	color: #900404;
+	width: 100%;
+	display: block;
+	font-size: 18px;
+	//color: #900404;
+	width: 100%;
+	display: block;
+	list-style: none;
+	//box-shadow: 0 -5px 5px 5px rgba(0, 0, 0, 1) inset;
+}
+
+.k_mobile_obj .nav_ul1 li	{
+	background-color: rgba(255, 255, 255, 0.10);
+	border-top: solid 1px rgba(255, 255, 255, 0.2);
+	border-bottom: solid 1px rgba(0, 0, 0, 0.9);
+	display: block;
+}
+
+
+.k_mobile_obj .nav_ul1 li a	{
+	text-decoration: none;
+	color: #fff;
+	padding: 1em 1em;
+	display: block;
+	
+	
+	list-style: none;
+	
+	//background-color: blue;
+	line-height: 1.2em;
+}
+
+.k_mobile_obj .nav_ul1 li > ul	{
+	box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.8) inset;
+}
+
+
+
+
+
+
+
+
+
+.yoko	{
+	box-shadow: 0 -5px 5px 5px rgba(0, 0, 0, 1) inset;
+	padding: 0;
+	margin: 0;
+	background-color: #111;
+	overflow: hidden;
+	width: 6100px;
+}
+.yoko div	{
+	padding: 0;
+	margin: 0;
+}
+.yoko ul	{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.yoko .nav_ul1	{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	list-style: none;
+	color: #900404;
+	display: block;
+	font-size: 18px;
+	//color: #900404;
+	display: block;
+	list-style: none;
+	//box-shadow: 0 -5px 5px 5px rgba(0, 0, 0, 1) inset;
+}
+.yoko .nav_ul1 li	{
+	display: block;
+	float: left;
+	width: 40px;
+	
+	padding: 45px 10px;
+	background-color: rgba(255, 255, 255, 0.10);
+	border-top: solid 1px rgba(255, 255, 255, 0.2);
+	border-bottom: solid 1px rgba(0, 0, 0, 0.9);
+}
+.yoko .nav_ul1 li a	{
+	text-decoration: none;
+	color: #fff;
+	//padding: 1em 1em;
+	display: block;
+	
+	
+	list-style: none;
+	
+	//background-color: blue;
+	line-height: 1.2em;
+}
+
+.yoko .nav_ul1 li > ul	{
+	box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.8) inset;
+}
+
+

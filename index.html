@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KURUBUSI.readrest</title>
+	
+	
+	
+	<script type="text/javascript" src="kurubusi.slider.js"></script>
+	<link href="kurubusi.slider.css" rel="stylesheet">
+	
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	
+	
+	
+</head>
+<body style="text-align:center;">
+
+
+<div style="position:absolute;top:100px;left:100px;">
+
+
+<!--親の高さは設定しなきゃダメ-->
+<br><br><br><br><br><br><br>
+<div id="w" style="position:relative;height:500px;border:solid 2px red;width:1000px;overflow:hidden">
+
+
+<nav id="c"  class="k_mobile_obj" style="width:200px">
+<ul class="nav_ul1">
+<?PHP
+for($i = 0; $i < 100; $i++){
+	echo '<li><a href="index.html">' . $i . '</a></li>';
+}
+?>
+</ul>
+</nav>
+</div>
+
+横の時は横幅をpxで指定しないとダメ
+<div id="w2" style="position:relative;height:500px;border:solid 2px red;width:1000px;overflow:hidden">
+
+<nav id="c2"  class="yoko" style="">
+<ul class="nav_ul1">
+<?PHP
+for($i = 0; $i < 101; $i++){
+	echo '<li><a href="index.html">' . $i . '</a></li>';
+}
+?>
+</ul>
+</nav>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
